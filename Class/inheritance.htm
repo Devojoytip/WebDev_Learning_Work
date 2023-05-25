@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        class student 
+        {
+            constructor(name, age) 
+            {
+                this.name = name;
+                this.age = age;
+            }
+
+            print()
+            {
+                console.log('Student :',this.name,this.age);
+            }
+        }
+
+        // method 1 to make constructor of child class
+        class ug1 extends student 
+        {
+            constructor(num_sub)
+            {
+                super('Krishna',18);
+                this.num_sub=num_sub;
+            }
+
+            print()
+            {
+                console.log('ug1',this.name,this.age,this.num_sub);
+                super.print();
+            }
+        }
+
+        // method 2 to make constructor of child class
+        class ug2 extends student 
+        {
+            constructor(name, age, num_sub)
+            {
+                super(name,age);
+                this.num_sub=num_sub;
+            }
+
+            print()
+            {
+                super.print();
+                console.log('ug2',this.name,this.age,this.num_sub);
+            }
+        }
+
+        let s1=new ug1(7);
+        let s2=new ug2('Ram',20,8);
+        console.log(s1);
+        console.log(s2);
+        s2.print();
+        s1.print();
+    </script>
+</body>
+
+</html>

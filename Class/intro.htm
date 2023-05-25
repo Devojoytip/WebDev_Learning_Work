@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        class student {
+            constructor(name, city) {
+                this.name = name;
+                this.city = city;
+            }
+
+            getName() {
+                return this.name;
+            }
+        }
+
+        console.log(typeof(student));
+
+        //IMP:
+        // 1. Hoisting doesn't work in case of classes
+        // 2. There can only be one special method with the name "constructor" in a class. 
+        // 3. If you don't provide your own constructor, then a default constructor will be supplied for you.
+        let a = new student('Ram', 'Surat');
+        let b = new student('Lakshman', 'Baroda');
+
+        console.log(a);
+        console.log(b);
+        console.log(a.getName());
+
+        console.log(a.hasOwnProperty('getName'));
+        console.log(student.prototype.hasOwnProperty('getName'));
+
+        // class expression:
+
+        let faculty=class{
+            constructor(name,cabin)
+            {
+                this.name=name;
+                this.cabin=cabin;
+            }
+        }
+
+        let c=new faculty('Amrit',1011);
+        console.log(c);
+    </script>
+</body>
+
+</html>

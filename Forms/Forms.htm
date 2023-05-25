@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <div>
+            <label for="user">Username <br></label>
+            <input type="text" id='user' name='Username' required>
+        </div>
+
+        <div>
+            <label for="pw">Password<br></label>
+            <input type="password" id='pw' name="Password" required>
+        </div>
+
+        <div>
+            <label for="cou">Country<br></label>
+            <input type="text" name="country" id="cou" value="India" disabled>
+        </div>
+
+        <div>
+            <label for="st">State<br></label>
+            <input type="text" name="state" id="st" value="Gujarat">
+        </div>
+
+        <div>
+            <label for="dob">DOB</label>
+            <input type="date" id='dob' name="DOB">
+        </div>
+
+        <div>
+            <p>Gender</p>
+            <!-- if u want to have a radio button already checked then use checked attribute -->
+            <input type="radio" name="gen" value="m" checked>Male<br>
+            <input type="radio" name="gen" value="f">Female<br>
+            <input type="radio" name="gen" value="ot">Others<br>
+
+            <p>Education</p>
+            <!-- if u want to have a radio button already checked then use checked attribute -->
+            <input type="radio" name="ed" value="sc" checked>School<br>
+            <input type="radio" name="ed" value="cl">College<br>
+            <input type="radio" name="ed" value="univ">University<br>
+        </div>
+
+        <div>
+            <p>Courses</p>
+            <input type="checkbox" name="c3" value="DSA" checked>DSA <br>
+            <input type="checkbox" name="c1" value="os">OS <br>
+            <input type="checkbox" name="c2" value="DBMS">DBMS <br>
+        </div>
+
+        <div>
+            <label for="age">Age</label>
+            <input type="number" id='age' name="Age">
+        </div>
+
+        <div>
+            <label for="eid">E-Mail ID</label>
+            <input type="email" id='eid' name="E-Mail ID">
+        </div>
+
+        <div>
+            <label for="ti">Time</label>
+            <input type="time" id='ti' name="Time">
+        </div>
+
+        <div>
+            <label for="rg">Range</label>
+            <input type="range" id='rg' name="Range" min='10' max='100' step='10'>
+            <!-- step='10' means each unit is of 10 -->
+        </div>
+
+        <div>
+            <label for="eid">Email</label>
+            <input type="email" id="eid" name="Email" placeholder="abc@gmail.com">
+        </div>
+
+        <div>
+            <label for="date">Date</label>
+            <input type="date">
+        </div>
+
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+</body>
+
+</html>

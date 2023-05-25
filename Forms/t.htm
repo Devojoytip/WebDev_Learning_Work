@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+    <style>
+        #desc {
+            resize: none;
+        }
+
+        input[type="text"] {
+            height: 2rem;
+            width: 5rem;
+        }
+
+        input:focus:invalid {
+            border: 2px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <form name="form" action="" method="post" autocomplete="off">
+        <label for="name">Enter your name </label>
+        <input type="text" name="" id="name">
+        <br>
+        <label for="pw">Enter your password </label>
+        <input type="password" name="pw" id="" pattern="^[A-Za-z]{5,}">
+        <br>
+        <label for="checkbox-1">Select your language</label>
+        <br>
+        <label for="English">English</label>
+        <input type="checkbox" name="checkbox-1" id="English" value="en" checked>
+        <br>
+        <label for="Tamil">Tamil</label>
+        <input type="checkbox" name="checkbox-1" id="Tamil" value="ta">
+        <br>
+        <label for="Hindi">Hindi</label>
+        <input type="checkbox" name="checkbox-1" id="Hindi" value="hind">
+        <br>
+        <label for="radio-1">Gender</label>
+        <br>
+        <label for="male">Male</label>
+        <input type="radio" name="radio-1" id="male" value="ml" checked>
+        <br>
+        <label for="male">Female</label>
+        <input type="radio" name="radio-1" id="male" value="fl">
+        <br>
+        <label for="male">Others</label>
+        <input type="radio" name="radio-1" id="male" value="ot">
+        <br>
+        <select name="degree" id="">
+            <option value="">Select your program</option>
+            <optgroup label="MTech">
+                <option value="int">2 years MTech</option>
+                <option value="int">5 years Integrated MTech</option>
+            </optgroup>
+            <option value="bt">Btech</option>
+            <option value="phd">Phd</option>
+        </select>
+        <br>
+        <label for="desc">Describe yourself</label>
+        <br>
+        <textarea name="desc" id="desc" cols="30" rows="10">
+</textarea>
+        <input type="color" name="" id="color">
+        <br>
+        <input type="date" name="date" id="" min="2001-01-01" max="2003-12-31">
+        <br>
+        <input type="date" name="" id="">
+        <br>
+        <input type="datetime" name="" id="">
+        <br>
+        <input type="datetime-local" name="" id="">
+        <br>
+        <input type="number" name="" id="" min="1" max="100" step="5">
+        <br>
+        <input type="range" name="" id="">
+        <br>
+        <input type="email" name="" id="">
+        <br>
+        <input type="file" name="" id="" accept="application/pdf">
+        <input list="places">
+        <datalist id="places">
+            <option value="Vellore"></option>
+            <option value="Chennai"></option>
+            <option value="Vadodara"></option>
+            <option value="Surat"></option>
+            <option value="Delhi"></option>
+        </datalist>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>

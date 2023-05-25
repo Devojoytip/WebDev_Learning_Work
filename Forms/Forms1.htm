@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="" method="post">
+        <p>Month</p>
+        <select name="mon">
+
+            <!-- use selected attribute for default selected -->
+            <option value="j">January</option>
+            <option value="f">February</option>
+            <option value="m">March</option>
+            <option value="a" selected>April</option>
+            <option value="my">May</option>
+            <option value="je">June</option>
+        </select>
+
+        <div>
+            <p>Interests</p>
+            <select name="int" id="" multiple>
+
+                <!-- use multiple attribute for selecting multiple options and we can select mul options in forms by pressing ctrl+enter -->
+                <option value="a">AI</option>
+                <option value="w">WebDev</option>
+                <option value="ad" selected>AndroidDev</option>
+                <option value="b">Blockchain</option>
+            </select>
+
+            <select name="degree" id="">
+                <option value="" label="Select your program"></option>
+                <optgroup label="MTech">
+                    <option value="non-int">2 years MTech</option>
+                    <option value="integ">5 years Integrated MTech</option>
+                </optgroup>
+                <option value="bt">Btech</option>
+                <option value="phd">Phd</option>
+            </select>
+        </div>
+
+        <div>
+            <p>Describe</p>
+            <textarea name="des" id="" cols="30" rows="10"></textarea>
+        </div>
+
+        <button type="button">B1</button>
+        <button type="submit">B2</button>
+        <button type="reset">B3</button>
+        <button type="menu">B4</button>
+
+        <div>
+            <input list="places">
+            <datalist id="places">
+                <option value="Vellore"></option>
+                <option value="Chennai"></option>
+                <option value="Vadodara"></option>
+                <option value="Surat"></option>
+                <option value="Delhi"></option>
+            </datalist>
+        </div>
+
+        <div>
+            <label for="color">Color Picker</label>
+            <input type="color" name="color" id="">
+        </div>
+
+        <div>
+            <input type="submit">
+        </div>
+
+    </form>
+</body>
+
+</html>

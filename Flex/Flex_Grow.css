@@ -1,0 +1,23 @@
+#container{
+    height: 500px;
+    width: 500px;
+    background-color: gray;
+    display: flex;
+    /* flex-direction: column; */
+}
+
+#container div{
+    height: 200px;
+    width: 200px;
+}
+
+/* Flex grow helps us to use the remaining space. div1 and div2 occupy the 100px width left in 4:1 ratio */
+#div1{
+    background: hotpink;
+    flex-grow: 4;
+}
+
+#div2{
+    background-color: red;
+    flex-grow: 1;
+}

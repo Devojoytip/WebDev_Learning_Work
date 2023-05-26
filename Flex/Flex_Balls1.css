@@ -1,0 +1,153 @@
+body {
+    /* font-family: monospace; */
+    background-color: #2abeb5;
+}
+
+/* h1 {
+    text-transform: uppercase;
+    color: rgb(228, 29, 29);
+    background-color: rgb(79, 57, 47);
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+} */
+
+#box {
+    width: 330px;
+    height: 330px;
+    background-color: #ee5050;
+    margin: 100px auto;
+    border: 5px solid black;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: row; */
+    /* flex-direction: column-reverse; */
+    flex-direction: column;
+}
+
+#box div {
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+    box-sizing: border-box;
+}
+
+#ball1 {
+    height: 30px;
+    width: 30px;
+    background-color: #ff9bc9;
+    order: 1;
+}
+
+#ball2 {
+    height: 40px;
+    width: 40px;
+    background-color: #df8eff;
+    order: 6;
+}
+
+#ball3 {
+    height: 50px;
+    width: 50px;
+    background-color: #91dcff;
+    order: 3;
+}
+
+#ball4 {
+    height: 60px;
+    width: 60px;
+    background-color: #93ff99;
+    order: 5;
+}
+
+#ball5 {
+    height: 70px;
+    width: 70px;
+    background-color: #dfff89;
+    order: 2;
+}
+
+#ball6 {
+    height: 80px;
+    width: 80px;
+    background-color: #ffdf8e;
+    order: 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+ /* #big-container{
+    height: 99vh;
+    width: 99vw;
+    background-color: rgb(132, 173, 250);
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-bottom: -10px;
+    padding: 8px;
+    position: relative;
+}  */
+
+/* #container{
+    height: 98vh;
+    width: 98vw;
+    border: 5px solid red;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}  */
+
+/* #container div{
+    margin-top: 2px;
+}
+
+#div-1{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(125, 137, 252);
+    border-radius: 50%;
+    order: -1;
+}
+
+#div-2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(247, 83, 83);
+    border-radius: 50%;
+}
+
+#div-3{
+    height: 120px;
+    width: 120px;
+    background-color: rgb(116, 247, 83);
+    border-radius: 50%;
+    order: 3;
+}
+
+#div-4{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(113, 83, 247);
+    border-radius: 50%;
+    order: 10;
+}
+
+#div-5{
+    height: 180px;
+    width: 180px;
+    background-color: rgb(83, 247, 206);
+    border-radius: 50%;
+}
+#div-6{
+    height: 210px;
+    width: 210px;
+    background-color: rgb(167, 6, 167);
+    border-radius: 50%;
+}
+ */

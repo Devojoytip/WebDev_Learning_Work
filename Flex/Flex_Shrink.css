@@ -1,0 +1,22 @@
+#container{
+    height: 500px;
+    width: 300px;
+    background-color: gray;
+    display: flex;
+}
+
+#container div{
+    height: 200px;
+    width: 200px;
+}
+
+/* Flex-shrink default value is 1 incase the space is less */
+#div1{
+    background: hotpink;
+    flex-shrink: 4;
+}
+
+#div2{
+    background-color: red;
+    flex-shrink: 1;
+}

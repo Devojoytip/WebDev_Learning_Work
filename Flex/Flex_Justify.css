@@ -1,0 +1,36 @@
+#container{
+    background-color: lightgrey;
+    height: 500px;
+    width: 500px;
+    display: flex;
+
+    flex-direction: column;
+
+    /* Default */
+    /* justify-content: flex-start; */
+
+    /* justify-content: flex-end; */
+
+    /* justify-content: center; */
+
+    /* justify-content: space-around; */
+
+    justify-content: space-between;
+}
+
+#container div{
+    height: 100px;
+    width: 100px;
+}
+
+#div1{
+    background-color: limegreen;
+}
+
+#div2{
+    background-color: cyan;
+}
+
+#div3{
+    background-color: rgb(190, 24, 212);
+}

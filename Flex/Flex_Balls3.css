@@ -1,0 +1,51 @@
+body{
+    background-color: #2abeb5;
+}
+
+#box{
+    margin: 100px auto;
+    width: 330px;
+    height: 330px;
+    background-color: #ee5050;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+#box div{
+    border: 1px solid snow;
+    border-radius: 50%;
+    /* box-sizing: border-box; */
+}
+
+#ball1 {
+    height: 30px;
+    width: 30px;
+    background-color: #ff9bc9;
+    /* order: 1; */
+}
+
+#ball2 {
+    height: 40px;
+    width: 60px;
+    background-color: #df8eff;
+    flex-grow: 1;
+    /* order: 6; */
+}
+
+#ball3 {
+    height: 50px;
+    width: 70px;
+    background-color: #91dcff;
+    flex-grow: 2;
+    /* order: 3; */
+}
+
+#ball4 {
+    height: 60px;
+    width: 80px;
+    background-color: #93ff99;
+    flex-grow: 3;
+    /* order: 5; */
+}
+

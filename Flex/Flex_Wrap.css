@@ -1,0 +1,52 @@
+#container{
+    /* height: 75vh; */
+    height: auto;
+    width: 75vw;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+
+    flex-wrap: wrap-reverse;
+    /* Now div 5 is overflowing so set height of container as auto */
+}
+
+#container div{
+    height: 200px;
+    width: 200px;
+}
+
+#div-1{
+    background-color: blueviolet;
+    /* order: 50; */
+}
+
+#div-2{
+    background-color: rgb(226, 141, 43);
+    /* order: -10; */
+}
+
+#div-3{
+    background-color: rgb(43, 226, 58);
+    /* order: 35; */
+}
+
+#div-4{
+    background-color: rgb(189, 43, 226);
+    /* order: 15; */
+}
+
+#div-5{
+    background-color: rgb(52, 79, 233);
+    /* order: 15; */
+}
+
+#div-6{
+    background-color: rgb(221, 233, 52);
+    /* order: 15; */
+}
+
+#div-7{
+    background-color: rgb(52, 206, 233);
+    /* order: 15; */
+}

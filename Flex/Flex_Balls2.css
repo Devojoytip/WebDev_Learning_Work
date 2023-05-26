@@ -1,0 +1,76 @@
+body {
+    /* font-family: monospace; */
+    background-color: #2abeb5;
+}
+
+/* h1 {
+    text-transform: uppercase;
+    color: rgb(228, 29, 29);
+    background-color: rgb(79, 57, 47);
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+} */
+
+#box {
+    width: 330px;
+    height: 330px;
+    background-color: #ee5050;
+    margin: 100px auto;
+    border: 5px solid black;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: row; */
+    /* flex-direction: column-reverse; */
+    flex-direction: column;
+
+    flex-wrap: wrap-reverse;
+}
+
+#box div {
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+    box-sizing: border-box;
+}
+
+#ball1 {
+    height: 50px;
+    width: 50px;
+    background-color: #ff9bc9;
+    /* order: 1; */
+}
+
+#ball2 {
+    height: 60px;
+    width: 60px;
+    background-color: #df8eff;
+    /* order: 6; */
+}
+
+#ball3 {
+    height: 70px;
+    width: 70px;
+    background-color: #91dcff;
+    /* order: 3; */
+}
+
+#ball4 {
+    height: 80px;
+    width: 80px;
+    background-color: #93ff99;
+    /* order: 5; */
+}
+
+#ball5 {
+    height: 90px;
+    width: 90px;
+    background-color: #dfff89;
+    /* order: 2; */
+}
+
+#ball6 {
+    height: 100px;
+    width: 100px;
+    background-color: #ffdf8e;
+    /* order: 4; */
+}

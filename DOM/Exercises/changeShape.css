@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.outer{
+    height: 100%;
+    width: 500px;
+    border: 2px solid black;
+    position: absolute;
+    left: 30%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.bt{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 30%;
+}
+
+button{
+    margin: 5%;
+    height: 50px;
+    padding: 2%;
+    font-family: sans-serif;
+    font-size: larger;
+    width: 203px;
+    position: relative;
+    left: 28%;
+}
+
+button:hover{
+    box-shadow: 5px 5px 5px 5px #888888;
+    cursor: pointer;
+}
+
+.inner{
+    position: relative;
+    top: 20%;
+    left: 22%;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    background-color: blueviolet;
+}
+
+.square{
+    position: absolute;
+    left: 28%;
+    top: 26%;
+    height: 136px;
+    width: 136px;
+    background-color: aliceblue;
+}
+
+/* .triangle{
+    height: 136px;
+    width: 136px;
+    background: transparent;
+    border: 150px solid #000;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,50%);
+    border-top-color: transparent;
+    border-right-color: transparent;
+	 
+}*/
+
+.triangle {
+    /* display: none; */
+    display: flex;
+    visibility: hidden;
+    margin: 0;
+    position: absolute;
+    left: 28%;
+    right: 0;
+    top: 71px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    /* background-color: palevioletred; */
+}
+.triangle1 {
+    /* display: none; */
+    /* visibility: hidden; */
+    visibility: inherit;
+    /* border-top: 136px solid red; */
+    border-top: 136px solid aliceblue;
+    border-left: 136px solid transparent;
+    margin-left: 2px;
+}

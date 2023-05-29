@@ -1,0 +1,10 @@
+#div1{
+    height: 200px;
+    width: 300px;
+    /* Click on the color icon to change color which is after the : */
+    background-color: brown;
+    background-color: rgb(119, 42, 6);
+    background-color: rgba(80, 220, 230, 0.5); /* a-> alpha or opacity which ranges from 0-1 */
+    /* background-color: hsl();
+    background-color: hsla(hue, saturation, lightness, alpha) */
+}

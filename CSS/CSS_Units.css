@@ -1,0 +1,35 @@
+/* html{
+    font-size: 100px;
+} */
+
+#div1{
+    /* height: 300px;
+    width: 500px; */
+
+    /* vh and vw means the height and width of the screen  
+    v = Viewport = the browser window size. If the viewport is 50cm wide, 1vw = 1% of size = 0.5cm
+    */
+
+    /* height: 50vh;
+    width: 50vw; */
+
+    /* Rem sets the value of what the font-size is of the root html is. The root element is html here. We can set rem by setting html */
+
+    /* height: 4rem;
+    width: 8rem; */
+
+    /* em is relative to the font-size of the element (2em means 2 times the size of the current font) */
+    height: 4em;
+    width: 4em;
+
+    /* height: 400px;
+    width: 400px; */
+    background-color: blueviolet;
+}
+
+#div2{
+    /* Height and width are set to 50% of its parent which is div1 */
+    height: 50%;
+    width: 50%;
+    background-color: coral;
+}

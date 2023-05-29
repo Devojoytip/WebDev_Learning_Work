@@ -1,0 +1,51 @@
+#div1{
+    height: 50vh;
+    width: 50vw;
+    background-color: coral;
+
+    /* All left , right , top , bottom borders set to 10px */
+    /* border-width: 10px; */
+
+    /* 10px-> top & down , 20px-> left & right */
+    /* border-width: 10px 20px;  */
+
+    /* 10px -> top , 20px -> left & right , 30px -> bottom */
+    /* border-width: 10px 20px 30px; */
+
+    /* 10px -> top , 20px -> right , 30px -> bottom , 40px -> left. Can inspect the border to get more clarity */
+    /* border-width: 10px 20px 30px 40px; */
+
+    /* border-width: 10px;
+    border-style: solid;
+    border-color:chartreuse; */
+
+    border: 10px solid chartreuse;
+
+    /* Can set corners of the border round by using border radius */
+    border-radius: 16px; 
+
+    /* Also we can seperately set the radius of top left and top right corners */
+    /* border-top-left-radius: 16px; */
+    /* border-top-right-radius: 16px; */
+
+    /* Also we can seperately set the radius of bottom left and top right corners */
+    /* border-bottom-left-radius: 16px; */
+    /* border-bottom-right-radius: 16px; */
+}
+
+#div2{
+    height: 50%;
+    width: 50%;
+    background-color: cyan;
+}
+
+#p1{
+    font-size: xx-large;
+    border: 2px solid chartreuse;
+
+    border-left: 20px solid chartreuse;
+    border-right: 20px solid chartreuse;
+    border-top: 20px solid chartreuse;
+
+    
+}

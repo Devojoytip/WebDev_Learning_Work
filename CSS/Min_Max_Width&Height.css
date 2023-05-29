@@ -1,0 +1,21 @@
+div{
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+    min-width: 150px;
+    max-width: 600px;
+
+    /* Overflow */
+    
+    /* Default */
+    /* overflow: visible; */
+
+    /* The content that comes out of the box will get hidden */
+    /* overflow: hidden;  */
+
+    /* gives a scroll bar  */
+    overflow: scroll;
+
+    /* the browser decides what to do in case of auto */
+    /* overflow: auto; */
+}

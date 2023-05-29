@@ -1,0 +1,35 @@
+#outer-div1{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 0, 149);
+    
+    /* margin: 134px; */
+
+    /* margin-top: 3px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 5px; */
+
+    /* top-bottom & left-right */
+    /* margin: 10px 10px;  */
+
+    /* top , left-right , bottom */
+    /* margin: 10px 20px 30px; */
+
+    /* top , right, bottom , left */
+    margin: 10px 20px 30px 40px;
+
+    /* in case of vertical margins, if there are 2 margins then they collapse . For eg if div1 has bottom=20px and div1 has top=10px then the distance b/w them should become 20+10=30px but that doesn't happen as vertical margins collapse and the greater of the two is taken and so they are 20px apart but its not the case in horizontal margins. If 2 divs have margins- div1 has right margin=20 and div2 has left margin=15 then both divs will be 20+15=35px apart. So horizontal margins add up*/
+}
+
+#inner-div1{
+    height: 50%;
+    width: 50%;
+    background-color: cyan;
+}
+
+#outer-div2{
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+}

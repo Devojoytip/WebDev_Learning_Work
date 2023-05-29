@@ -1,0 +1,34 @@
+#div1{
+    background-color: deeppink;
+    /* height: 50vh;
+    width: 50vw; */
+    height: 500px;
+    width: 500px;
+    /* margin-left: -4px; */
+}
+
+#div2{
+    background-color:deepskyblue;
+    /* height: 50vh;
+    width: 50vw; */
+    height: 500px;
+    width: 500px;
+    /* set left margin to some -ve value so that the divs after becoming inline-block don't have margins between them which is the property of inline elements */
+    margin-left: -4px;
+}
+
+span{
+    font-size: xx-large;
+    display: block;
+}
+
+/* But in case of inline elements we can't set their height and width and so for divs nothing will be visible 
+So try writing something within it to see that even though we specified the heights and widths , the divs which now have become inline occupy only that much space which they need. For doing this we have to set display to inline-block*/
+div{
+    display: inline;
+}
+
+/* But if the divs have such width that their total width + margin b/w them is greater than the width of the screen then the divs will not come in one line */
+div{
+    display: inline-block;
+}

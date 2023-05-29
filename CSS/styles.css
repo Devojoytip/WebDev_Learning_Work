@@ -1,0 +1,236 @@
+/* Type Selectors */
+
+p{
+    color: blue;
+    font-size: x-large;
+    font-family: emoji;
+}
+
+div{
+    color:darkorange;
+    font-size: x-large;
+}
+
+h4{
+    color: black;
+    /* text-transform: uppercase; */
+    font-size: x-large;
+}
+
+section{
+    color: black;
+}
+
+a{
+    color: crimson;
+    font-size: x-large;
+}
+
+/* Class Selectors */
+
+/* To make Classes, for assigning same properties to multiple elements, write .class_name */
+
+.myLowercaseClass{
+    text-transform: lowercase;
+}
+
+.myUppercaseClass{
+    text-transform: uppercase;
+}
+
+.makeCursive{
+    font-family: cursive;
+}
+
+/* Id Selectors */
+
+/* To access an element using id, write #id. We can also use inline CSS but for neatness so we don't have to do work on HTML code , we can use ids of elements to impose particular properties to them  */
+
+#blog-desc{
+    color: #ff924e;
+}
+
+#main-header{
+    color: darkmagenta;
+}
+
+/* Grouping */
+/* If more than 2 selectors have same rules then we can group them together */
+
+#blog-desc,.myLowercaseClass, .myUppercaseClass, .makeCursive{
+    font-size: x-large;
+    border:2px solid coral;
+    /* background-color: blueviolet; */
+}
+
+/* Nesting */
+
+/* means all p tags in id=point-1 should have color=red */
+/* #point-1 p{
+    color: red;
+}  */
+
+/* Hover */
+
+#heading-id:hover{
+    color: royalblue;
+}
+
+/* Chaining Selectors */
+
+h4.makeCursive{
+    background-color:cyan;
+}
+
+/* img{
+    width: 100vw;
+} */
+
+/* p{
+    width: 90vw;
+} */
+
+/* #final-para{
+    vertical-align: top; 
+    margin-top: 50px;
+    width: 70vw;
+} */
+
+#site-title{
+    font-size: 1.8rem;
+}
+
+#image1{
+    height: 500px;
+    width: 80vw;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+#image2{
+    width: 800px;
+}
+
+#views-image{
+    height: 30px;
+    width: 30px;
+}
+
+#views{
+    display: inline-block;
+    height: 30px;
+    /* width: 30px; */
+}
+
+#m{
+    display: inline-block;
+    width: 70%;
+    margin-left: 10px;
+    border-width: 5px 5px 5px 0px;
+    border-color: #ff6060;
+    border-style: dashed;
+    border-top-left-radius: 50px; 
+    border-top-right-radius: 50px;
+}
+
+#bottom-a{
+    margin-bottom: 20px;
+}
+
+div{
+    font-size: large;
+}
+
+/* Aside section */
+
+#aside-section1{
+    margin-left: 15px;
+    vertical-align: top;
+    display: inline-block;
+    width: 15%;
+}
+
+/* #aside-section2{
+    display: block;
+    vertical-align: top;
+    width: 21%;
+} */
+
+.widget{
+    
+    border-top: 2px solid black;
+    margin-top: 15px;
+}
+
+button[type="submit"]{
+    margin-top: 2px;
+    font-size: x-large;
+    color: blanchedalmond;
+    background-color: black;
+}
+
+.widget form{
+    /* margin-top: 5px; */
+    color: black;
+}
+
+.widget-title{
+    font-size: 1.5rem;
+}
+
+.widget input{
+    height: 20px;
+    width: 250px;
+    display: block;
+    padding: 4px;
+    background-color: #F7F7F7;
+
+}
+
+#div-section2{
+    padding-top: 50px;
+    margin-top: 40px;
+    border-top: 2px solid black;
+    padding-bottom: 70px;
+    border-bottom: 2px solid black;
+}
+
+#div-section2 input{
+    font-size: large;
+    height: 30px;
+    width: 250px;
+    
+}
+
+#div-section3,#div-section4{
+    word-spacing: 5px;
+    line-height: 40px;
+}
+
+#div-section3 a,#div-section4 a{
+    text-decoration: none;
+    color: rosybrown;
+}
+
+#div-section5{
+    font-family: 'sans-serif';
+    background-color: whitesmoke;
+    color: black;
+    display: inline-block;
+    width: 110px;
+    vertical-align: top;
+}
+
+#aside-img{
+    height: 100px;
+}
+/* main{
+    width: 70%;
+} */
+
+
+#social-media{
+    position: fixed;
+    display: inline-block;
+    vertical-align:top;
+}

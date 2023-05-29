@@ -1,0 +1,55 @@
+#div1{
+    height: 300px;
+    width: 500px;
+    background-color: blueviolet;
+}
+
+#div2{
+    height: 100px;
+    width: 500px;
+    background-color:brown;
+
+    /* Position:static by default */
+
+    /* Relative-> in relation to its static(actual) position. the element will move . for eg left=2opx means it will move 20px left from its actual pos. its original/actual pos is reserved and can't be allocated to any element */
+    
+    /* position: relative;
+    left: 20px;
+    top: 30px; */
+
+    /* Absolute-> relative to its nearest parent which has position attribute. for this make outer div pos=relative else it will make parent to the whole page and no space is reserved */
+    
+    /* position: absolute;
+    left: 20px;
+    top: 20px; */
+
+    /* Fixed-> relative to viewport but space gets fixed and even if we scroll the element will be at that space only*/
+    
+    /* position: fixed; */
+    /* left: 20px;
+    top: 20px; */
+    /* left: 100px;
+    top: 50px; */
+
+    /* Sticky->This CSS property allows the elements to stick when the scroll reaches to a certain point. Depends upon the scroll position, a sticky element toggles in between fixed and relative. The element will be positioned relative until the specified position of offset is met in the viewport. Then, similar to position: fixed, the element sticks in one place. */
+    
+    position: sticky;
+    left: 100px;
+    top: 10px;
+}
+
+#div3{
+    height: 300px;
+    width: 500px;
+    background-color: rgb(49, 226, 43);
+}
+
+#outer-div{
+    border: 2px solid black;
+    position: relative;
+}
+
+.big{
+    height: 5000px;
+    background-color: red;
+}

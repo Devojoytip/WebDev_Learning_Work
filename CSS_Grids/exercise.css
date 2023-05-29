@@ -1,0 +1,130 @@
+/* .zone{
+    padding: 30px 50px;
+    margin: 40px 60px;
+    cursor: pointer;
+    display: inline-block;
+    color: #FFF;
+    font-size: 2em;
+    border-radius: 4px;
+    border: 2px solid #bbb;
+    transition: all 0.3s linear;
+} */
+
+/* To remove default margins as browsers sometimes have some default CSS- its called normalizing CSS */
+body{
+    margin: auto 0;
+    font-family: arial;
+}
+
+.zone{
+    /* padding: 30px 50px;
+    margin: 40px 60px; */
+    cursor: pointer;
+    /* display: inline-block; */
+    color: #FFF;
+    font-size: 2em;
+    border-radius: 4px;
+    border: 2px solid #bbb;
+    transition: all 0.3s linear;
+}
+
+.zone:hover{
+    box-shadow: 5px 5px rgb(192, 188, 188);
+}
+
+/* NAV-BAR */
+
+.main-div{
+    display: flex;
+    margin: 0;
+    font-size: 0.7em;
+    list-style: none;
+}
+
+.main-div li{
+    padding: 20px;
+}
+
+.main-div a{
+    text-decoration: none;
+    color: #f5f5f6;
+}
+
+.push{
+    margin-left: auto;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+@media screen and (max-width:600px){
+    .main-div{
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+
+/* COVER */
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 50vh; */
+    height: 70vh;
+    /* position: relative; */
+    /* padding-top: 100px; */
+}
+
+.cover{
+    /* position: relative; */
+    /* top: 30%; */
+    width: 75%;
+    height: 70%;
+    /* align-self: center;
+    justify-content: center;     */
+}
+
+/* GRID */
+
+.grid-wrapper{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+}
+
+.box > img{
+    width: 100%;
+}
+
+.box{
+    background-color: #444;
+    padding: 60px;
+    margin: 20px;
+}
+
+/* FOOTER */
+
+footer{
+    text-align: center;
+}
+/* Other classes */
+
+.green{
+    background-color: #04AA6D;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: rgb(49, 180, 231);
+}
+
+.yellow{
+    background-color: #ffc107;
+}
